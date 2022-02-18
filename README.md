@@ -1,24 +1,17 @@
-# vuetify-landing-page
 
-## Project setup
-```
-npm install
-```
+# Vuetify Landing Page
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+simple landing page using vuejs and vuetify
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Authors
+
+- [fajar siagian](https://www.github.com/fajar7xx)
+
+
+## Screenshots
+
+![App Screenshot](screenshots/vuetify-landing-page.png)
+
