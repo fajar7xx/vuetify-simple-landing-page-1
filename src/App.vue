@@ -1,28 +1,41 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <AppHeader />
+    <v-main>
+      <AppHero />
+      <SectionAbout />
+      <SectionPortofolio />
+      <SectionProject />
+      <SectionGallery />
+      <SectionContact />
+      <SectionFooter />
+    </v-main>
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import AppHeader from "./components/AppHeader.vue";
+import AppHero from "./components/AppHero.vue";
+import SectionAbout from "./components/Section/SectionAbout.vue";
+import SectionPortofolio from "./components/Section/SectionPortofolio.vue";
+import SectionProject from "./components/Section/SectionProject";
+import SectionGallery from "./components/Section/SectionGallery";
+import SectionContact from "./components/Section/SectionContact";
+import SectionFooter from "./components/Section/SectionFooter";
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+  name: "App",
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+  components: {
+    AppHeader,
+    AppHero,
+    SectionAbout,
+    SectionPortofolio,
+    SectionProject,
+    SectionGallery,
+    SectionContact,
+    SectionFooter,
+  },
+
+  data: () => ({}),
+};
+</script>
